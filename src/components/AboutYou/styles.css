@@ -1,0 +1,44 @@
+.form {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.message {
+  font-size: 35px;
+  font-weight: 650;
+  margin: 10% 0 5%;
+}
+
+.form-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.title {
+  margin-top: 2%;
+}
+
+.name {
+  margin-top: 2%;
+}
+
+.email {
+  margin-top: 2%;
+}
+
+.number {
+  margin-top: 2%;
+}
+
+.nation {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.next {
+  font-size: 20px;
+  width: 18%;
+  font-weight: 700;
+  background: white;
+  border-radius: 15px;
+}

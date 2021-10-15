@@ -1,0 +1,29 @@
+name: Visual Regression Tests
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  visual_regression_tests:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # The step below prevents frontend throwing error about watchers
+      - name: Increase max_user_watches
+        run: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+      - name: Visual Regression Tests
+        uses: cypress-io/github-action@v2
+
+        with:
+          group: "Visual Regression Tests"
+          config-file: /cypress/visual-regression.json
+          command: npm run cy:visual
+          start: npm run start
+          wait-on: "http://localhost:3000"
+          wait-on-timeout: 320
+          parallel: true

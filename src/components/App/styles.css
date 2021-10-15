@@ -1,0 +1,34 @@
+.header {
+  border-bottom: 10px solid #96151d;
+}
+
+.logo {
+  margin: 1.5% 20%;
+  display: block;
+  color: #96151d;
+}
+
+.main {
+  font-family: "Univers LT Std Condensed", Arial, sans-serif;
+  font-size: 14px;
+}
+
+select,
+input[type="text"] {
+  width: 200px;
+  box-sizing: border-box;
+  height: 40px;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.footer {
+  margin-top: 5%;
+}
+
+.inline-position {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}

@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "screenshotsFolder": "./cypress/snapshots/actual",
+  "integrationFolder": "./cypress/visual-regression",
+  "trashAssetsBeforeRuns": true,
+  "video": false,
+  "env": {
+    "failSilently": false
+  },
+  "viewportHeight": 720,
+  "viewportWidth": 1280
+}
