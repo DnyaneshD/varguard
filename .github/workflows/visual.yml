@@ -3,7 +3,7 @@ name: Visual Regression Tests
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   visual_regression_tests:
