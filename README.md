@@ -1,4 +1,7 @@
-[![Unit tests](https://github.com/DnyaneshD/vanguard/actions/workflows/unit.yml/badge.svg)](https://github.com/DnyaneshD/vanguard/actions/workflows/unit.yml) [![Integration Tests](https://github.com/DnyaneshD/vanguard/actions/workflows/integration.yml/badge.svg)](https://github.com/DnyaneshD/vanguard/actions/workflows/integration.yml) [![Visual Regression Tests](https://github.com/DnyaneshD/vanguard/actions/workflows/visual.yml/badge.svg)](https://github.com/DnyaneshD/vanguard/actions/workflows/visual.yml) [![Lint test](https://github.com/DnyaneshD/vanguard/actions/workflows/lint.yml/badge.svg)](https://github.com/DnyaneshD/vanguard/actions/workflows/lint.yml)
+[![Unit tests](https://github.com/DnyaneshD/varguard/actions/workflows/unit.yml/badge.svg)](https://github.com/DnyaneshD/varguard/actions/workflows/unit.yml)
+[![Integration Tests](https://github.com/DnyaneshD/varguard/actions/workflows/integration.yml/badge.svg)](https://github.com/DnyaneshD/varguard/actions/workflows/integration.yml)
+[![Visual Regression Tests](https://github.com/DnyaneshD/varguard/actions/workflows/visual.yml/badge.svg)](https://github.com/DnyaneshD/varguard/actions/workflows/visual.yml)
+[![Lint test](https://github.com/DnyaneshD/varguard/actions/workflows/lint.yml/badge.svg)](https://github.com/DnyaneshD/varguard/actions/workflows/lint.yml)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 The purpose of this project is to prepare demo app for Vanguard test.
