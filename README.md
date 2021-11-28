@@ -6,10 +6,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 The purpose of this project is to prepare demo app for Vanguard test.
 
-## Deployment
-
-This applications is deployed on AWS S3 [here](http://vanguardtest.s3-website.eu-central-1.amazonaws.com/). This is just for testing purpose.
-
 ##### In case I am breaking some privacy laws about logo or something. I can remove it from aws immediatly. Please let me know.
 
 To run the project locally please find following scripts.
